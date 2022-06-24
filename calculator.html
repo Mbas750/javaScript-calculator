@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    alert("Simple Calculator")
+    const num1 = parseInt(prompt("Enter first number"))
+    const num2 = parseInt(prompt("Enter second number"))
+    alert("What math operation do you want to perform?")
+    let mathOp = prompt("Enter 1. addition 2. subtraction 3. multiplication 4. division")
+    if (mathOp == 1) {
+        alert(num1 + num2)
+    }else if (mathOp == 2) {
+        alert(num1 - num2)
+    }else if (mathOp == 3) {
+        alert(num1 * num2)
+    }else if (mathOp == 4){ 
+        alert(num1 / num2)
+    }else {
+        alert("Wrong input, please refresh the page")
+    }
+</script>
+<body>
+    
+</body>
+</html>
